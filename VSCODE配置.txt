@@ -27,4 +27,5 @@
     "powermode.enabled": true,
     "powermode.enableShake": false,
     //xiawu
+    //shide 
 }
