@@ -1,0 +1,10 @@
+git config --global user.name ""
+git config --global user.email
+git init
+git add .
+git commit -m ""
+git push //dizhi//  master
+
+
+比如，克隆jQuery的版本库。
+git clone https://github.com/jquery/jquery.git
