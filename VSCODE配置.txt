@@ -22,9 +22,9 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Eva Light Bold",
     "workbench.editor.showTabs": true,
-    // ¿ØÖÆ±à¼­Æ÷ÊÇ·ñÓ¦³ÊÏÖ¿Õ°××Ö·û
+    // ï¿½ï¿½ï¿½Æ±à¼­ï¿½ï¿½ï¿½Ç·ï¿½Ó¦ï¿½ï¿½ï¿½Ö¿Õ°ï¿½ï¿½Ö·ï¿½
     "editor.renderWhitespace": "all",
     "powermode.enabled": true,
     "powermode.enableShake": false,
-    
+    //xiawu
 }
