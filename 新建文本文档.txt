@@ -6,5 +6,6 @@ git commit -m ""
 git push //dizhi//  master
 
 
-比如，克隆jQuery的版本库。
+锟斤拷锟界，锟斤拷隆jQuery锟侥版本锟解。
 git clone https://github.com/jquery/jquery.git
+test?
