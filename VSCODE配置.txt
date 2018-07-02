@@ -1,31 +1,224 @@
 {
-    "window.zoomLevel": 0,
-    "editor.fontSize": 18,
-    "fileheader.Author": "Angel",
-    "fileheader.LastModifiedBy": "1049547382@qq.com",
-    "files.autoSave": "afterDelay",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "material-icon-theme.showUpdateMessage": false,
-    "workbench.activityBar.visible": true,
-    "workbench.statusBar.visible": true,
-    "editor.minimap.enabled": true,
-    // "editor.renderWhitespace": "none",
-    "workbench.sideBar.location": "left",
-    "window.menuBarVisibility": "toggle",
-    "editor.multiCursorModifier": "alt",
-    "editor.fontFamily": "Consolas",
-    "jshint.options": {"esversion":6},
-    "editor.wordWrap": "on",
-    "editor.mouseWheelZoom": true,
-    "html.format.endWithNewline": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Eva Light Bold",
-    "workbench.editor.showTabs": true,
-    // ���Ʊ༭���Ƿ�Ӧ���ֿհ��ַ�
-    "editor.renderWhitespace": "all",
-    "powermode.enabled": true,
-    "powermode.enableShake": false,
-    //xiawu
-    //shide 
+  "window.zoomLevel": 0,
+  "editor.fontSize": 16,
+  "files.autoSave": "onFocusChange",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "editor.minimap.enabled": true,
+  "workbench.sideBar.location": "left",
+  "window.menuBarVisibility": "toggle",
+  "editor.multiCursorModifier": "alt",
+  "editor.fontFamily": "'CamingoCode Blod','Source Code Pro','Deja Vu Sans Mono','Droid Sans Mono'",
+  "editor.fontWeight": "500",
+  "jshint.options": {
+    "extensions": [
+      ".js",
+      ".vue",
+      "html"
+    ],
+    //JS版本
+    "esversion": 6,
+    //使用===和!==替代==和!=
+    "eqeqeq": true,
+    //for in遍历对象属性的时候，包括继承自原型链的属性，hasOwnProperty可以来判断一个属性是否是对象本身的属性而不是继承得来的。
+    "forin": true,
+    //匿名函数调用必须立即，是为了表明，表达式的值是函数的结果，而不是函数本身。
+    "immed": true,
+    //代码缩进宽度（空格数）
+    "indent": 2,
+    //变量定义前禁止使用
+    "latedef": true,
+    //禁止复写原生对象(如Array, Date)的原型
+    "freeze": true,
+    //构造函数名首字母必须大写
+    "newcap": true,
+    //禁止定义变量却不使用
+    "unused": true,
+    //禁止行尾空格
+    "trailing": true,
+    // 允许省略分号
+    "asi": true,
+    //允许在if，for，while语句中使用赋值
+    "boss": true,
+    "funcscope": false,
+    "undef": true,
+    // Warning: `var` declarations are forbidden. Use `let` or `const` instead.
+    "varstmt": true,
+    "loopfunc": false,
+  },
+  //PostCSS
+  "postcssSorting.config": {
+    "order": [
+      "custom-properties",
+      "dollar-variables",
+      "declarations",
+      "at-rules",
+      "rules"
+    ],
+    "properties-order": [ /* revert */
+      "position", "top", "right", "bottom", "left", "z-index", "display", "float", "width", "height", "max-width", "max-height", "min-width", "min-height", "padding", "padding-top", "padding-right", "padding-bottom", "padding-left", "margin", "margin-top", "margin-right", "margin-bottom", "margin-left", "margin-collapse", "margin-top-collapse", "margin-right-collapse", "margin-bottom-collapse", "margin-left-collapse", "overflow", "overflow-x", "overflow-y", "clip", "clear", "font", "font-family", "font-size", "font-smoothing", "osx-font-smoothing", "font-style", "font-weight", "hyphens", "src", "line-height", "letter-spacing", "word-spacing", "color", "text-align", "text-decoration", "text-indent", "text-overflow", "text-rendering", "text-size-adjust", "text-shadow", "text-transform", "word-break", "word-wrap", "white-space", "vertical-align", "list-style", "list-style-type", "list-style-position", "list-style-image", "pointer-events", "cursor", "background", "background-attachment", "background-color", "background-image", "background-position", "background-repeat", "background-size", "border", "border-collapse", "border-top", "border-right", "border-bottom", "border-left", "border-color", "border-image", "border-top-color", "border-right-color", "border-bottom-color", "border-left-color", "border-spacing", "border-style", "border-top-style", "border-right-style", "border-bottom-style", "border-left-style", "border-width", "border-top-width", "border-right-width", "border-bottom-width", "border-left-width", "border-radius", "border-top-right-radius", "border-bottom-right-radius", "border-bottom-left-radius", "border-top-left-radius", "border-radius-topright", "border-radius-bottomright", "border-radius-bottomleft", "border-radius-topleft", "content", "quotes", "outline", "outline-offset", "opacity", "filter", "visibility", "size", "zoom", "transform", "box-align", "box-flex", "box-orient", "box-pack", "box-shadow", "box-sizing", "table-layout", "animation", "animation-delay", "animation-duration", "animation-iteration-count", "animation-name", "animation-play-state", "animation-timing-function", "animation-fill-mode", "transition", "transition-delay", "transition-duration", "transition-property", "transition-timing-function", "background-clip", "backface-visibility", "resize", "appearance", "user-select", "interpolation-mode", "direction", "marks", "page", "set-link-source", "unicode-bidi", "speak"
+    ]
+  },
+  "editor.wordWrap": "on",
+  "editor.mouseWheelZoom": true,
+  "html.format.endWithNewline": true,
+  "workbench.editor.showTabs": true,
+  // 控制编辑器是否应呈现空白字符,
+  "editor.renderWhitespace": "all",
+  //tab加尖括号
+  "emmet.triggerExpansionOnTab": true,
+  "todohighlight.isEnable": true,
+  "htmlhint.documentSelector": ["html", "htm", "twig"],
+  "htmlhint.options": {
+    "tagname-lowercase": false,
+    "attr-lowercase": true,
+    "attr-value-double-quotes": true,
+    "doctype-first": true
+  },
+  "sync.gist": "9c9eddc8d19b31772025726cb17a30ad",
+  "sync.lastUpload": "2018-06-28T15:42:00.398Z",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastDownload": "2018-03-21T00:26:49.884Z",
+  "sync.forceDownload": false,
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  //制表符缩进2空格
+  "editor.tabSize": 2,
+  //控制键入时是否应自动显示建议
+  "editor.parameterHints": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.renderIndentGuides": false,
+  "background.useFront": true,
+  "background.useDefault": false,
+  "background.enabled": true,
+  "background.customImages": [
+    "file:///D:/图片/壁纸/278529.jpg",
+  ],
+  "background.style": {
+    "content": "''",
+    "pointer-events": "none",
+    "position": "absolute",
+    "z-index": "99999",
+    "width": "100%",
+    "height": "100%",
+    "background-position": "0% 0%",
+    "background-repeat": "no-repeat",
+    "opacity": 0.15
+  },
+  "workbench.colorTheme": "Eva Dark Bold",
+  // 配置内置 HTML 语言支持是否建议 Angular V1 标记和属性。
+  "html.suggest.angular1": false,
+  // 配置内置 HTML 语言支持是否建议 Ionic 标记、属性和值。
+  "html.suggest.ionic": false,
+  // 控制是否将代码段与其他建议一起显示以及它们的排序方式
+  "editor.snippetSuggestions": "top",
+  "beautify.config": {
+    "indent_size": 2,
+    "indent_char": " ",
+    "css": {
+      "indent_size": 2
+    }
+  },
+  //保存调用beautify格式化
+  "editor.formatOnSave": false,
+  /* ignore all files named 'test.js' not in the root folder,
+  all files directly in any 'spec' directory, and
+  all files in any 'test' directory at any depth
+  */
+  "beautify.ignore": [
+    "*/test.js",
+    "**/dist/*",
+    "**/node_modules/*",
+    "**/node_modules/**/*",
+    "**/dist/**/*",
+    "**/*_test.js"
+  ],
+  /* ignore all files ending in '_test.js' anywhere */
+  //"beautify.ignore": "**/*_test.js"
+  // cSpell:disable 
+  //
+  // Set the executor of each language.
+  "code-runner.executorMap": {
+    "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runhaskell",
+    "nim": "nim compile --verbosity:0 --hints:off --run"
+  },
+
+  //Eva dark Theme match [paires]
+  "bracketPairColorizer.showHorizontalScopeLine": false,
+  "bracketPairColorizer.showVerticalScopeLine": false,
+  "bracketPairColorizer.consecutivePairColors": [
+    "()",
+    "[]",
+    "{}", [
+      "#838FA7",
+      "#A78CFA",
+      "#56B7C3",
+      "#FF9070"
+    ],
+    "#e51400"
+  ],
+  "cSpell.userWords": [
+    "kicon",
+    "seckill",
+    "shijian"
+  ],
+  // 是否启用 Git
+  "git.enabled": true,
+  "workbench.iconTheme": "vscode-great-icons",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "editor.find.autoFindInSelection": true,
+  "editor.formatOnPaste": true,
+  "gitlens.advanced.blame.delayAfterEdit": 50000,
 }
