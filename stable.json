@@ -1,0 +1,30 @@
+{
+    "editor.renderIndentGuides": false,
+    "background.useFront": true,
+    "background.useDefault": false,
+    "background.enabled": true,
+    "background.customImages": [
+      "file:///D:/图片/壁纸/278529.jpg",
+      "file:///D:/图片/earth.png",
+      "file:///D:/图片/壁纸/80593.jpg",
+    ],
+    "background.style": {
+      "content": "''",
+      "pointer-events": "none",
+      "position": "absolute",
+      "z-index": "99999",
+      "width": "100%",
+      "height": "100%",
+      "background-position": "0% 0%",
+      "background-repeat": "no-repeat",
+      "opacity": 0.15
+    },
+      // 控制是否在搜索中跟踪符号链接。
+    "search.followSymlinks": false,
+      // 是否启用 Git
+      "git.enabled": false,
+      "editor.fontFamily": "'Source Code Pro','CamingoCode Blod','Deja Vu Sans Mono','Droid Sans Mono'",
+      "workbench.colorTheme": "Material Theme",
+      "materialTheme.fixIconsRunning": false,
+      "workbench.iconTheme": "eq-material-theme-icons",
+  }
