@@ -1,0 +1,63 @@
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    // express 启动调试
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "express",
+      "runtimeExecutable": "nodemon",
+      "program": "${workspaceFolder}/Novel/server/index.js",
+      "serverReadyAction": {
+        "pattern": "listening on port ([0-9]+)",
+        "uriFormat": "http://localhost:%s",
+        "action": "openExternally"
+      },
+      "skipFiles": [
+        "${workspaceRoot}/Novel/server/node_modules/**/*.js",
+        "<node_internals>/**/*.js"
+      ]
+    }
+    // {
+    //     "name": "Attach to node",
+    //     "type": "node",
+    //     "request": "attach",
+    //     "processId": "${command:PickProcess}",
+    //     "console": "integratedTerminal"
+    //   }
+    // {
+    //     "type": "node",
+    //     "request": "launch",
+    //     "name": "nodemon",
+    //     "runtimeExecutable": "nodemon",
+    //     // "program": "${workspaceFolder}/Novel/server/index.js",
+    //     "runtimeArgs": [
+    //       ],
+    //     "args": [
+    //         "${workspaceFolder}/Novel/server/index.js"
+    //       ],
+    //     "restart": true,
+    //     "console": "integratedTerminal",
+    //     "internalConsoleOptions": "neverOpen",
+    //     "skipFiles": [
+    //         "${workspaceRoot}/Novel/server/node_modules/**/*.js",
+    //         "<node_internals>/**/*.js"
+    //       ]
+    // },
+    //     {
+    //   "type": "node",
+    //   "request": "launch",
+    //   "name": "启动程序",
+    //   "program": "${workspaceFolder}/${relativeFile}",
+    //   "runtimeExecutable": "nodemon", // 或者 node-dev
+    //   "restart": true,
+    //   "console": "integratedTerminal",
+    //   "skipFiles": [
+    //     "${workspaceRoot}/node_modules/**/*.js",
+    //     "<node_internals>/**/*.js"
+    //   ]
+    // }]
+  }
